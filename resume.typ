@@ -32,6 +32,14 @@
   body
 }
 
+#let icon(name, baseline: 1.5pt) = {
+  box(
+    baseline: baseline,
+    height: 10pt,
+    image(name)
+  )
+}
+
 #let exp(place, title, location, time, details) = {
   pad(
     bottom: 10%,
@@ -42,7 +50,7 @@
         #emph[#title]
       ],
       align(right)[
-        #location\
+        #location \
         #time
       ]
     )

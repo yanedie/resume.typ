@@ -3,10 +3,10 @@
 #show: cv.with(
   author: "Wu Yu Wei",
   contacts: (
-    [#emoji.mailbox #link("mailto:yuweiwu@pm.me")],
-    [#emoji.chain #link("https://wusyong.github.io/")[wusyong.github.io]],
-    [#emoji.telescope #link("https://github.com/wusyong")[Github]],
-    [#emoji.globe #link("https://www.linkedin.com/in/yu-wei-wu-23630a155/")[LinkedIn]],
+    [#icon("mail.svg") #link("mailto:yuweiwu@pm.me")],
+    [#icon("home.svg") #link("https://wusyong.github.io/")[wusyong.github.io]],
+    [#icon("github.svg") #link("https://github.com/wusyong")[Github]],
+    [#icon("linkedin.svg") #link("https://www.linkedin.com/in/yu-wei-wu-23630a155/")[LinkedIn]],
   )
 )
 
